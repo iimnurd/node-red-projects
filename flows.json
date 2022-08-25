@@ -8,6 +8,11 @@
         "env": []
     },
     {
+        "id": "1a968e0c3da9b1ff",
+        "type": "slack-config",
+        "name": "aaa"
+    },
+    {
         "id": "94686570a36e048a",
         "type": "inject",
         "z": "8c95268886ab5276",
@@ -31,6 +36,19 @@
         "x": 180,
         "y": 140,
         "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3177a709809212b8",
+        "type": "slack-state",
+        "z": "8c95268886ab5276",
+        "client": "1a968e0c3da9b1ff",
+        "name": "aa",
+        "x": 290,
+        "y": 360,
+        "wires": [
+            [],
             []
         ]
     }
